@@ -1,5 +1,6 @@
 package com.ntt.ecl.webrtc.sample_p2p_videochat;
 
+import android.annotation.SuppressLint;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.graphics.Point;
@@ -17,11 +18,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- *
- * PeerListDialogFragment.java
- *
- */
+@SuppressLint("NewApi")
 public class PeerListDialogFragment extends DialogFragment
 		implements AdapterView.OnItemClickListener {
 
